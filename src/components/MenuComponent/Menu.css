@@ -1,0 +1,21 @@
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 1rem;
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 0.5rem;
+    li {
+      text-transform: uppercase;
+      font-size: 1.6rem;
+      margin-right: 1rem;
+      font-family: "Special Gothic Expanded One", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      cursor: pointer;
+    }
+  }
+}

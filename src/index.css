@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --background-color: #F9D775;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+  background-color: var(--background-color);
+}
+
+button {
+  background-color: black;
+  color: var(--background-color);
+  font-family: inherit;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 1rem;
+  text-transform: uppercase;
+}
+
+#root {
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+  grid-template-rows: auto;
+  min-height: 100vh;
+  margin: 0;
+}
+

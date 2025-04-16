@@ -1,0 +1,33 @@
+.items-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    margin-top: 0.5rem;
+  }
+
+  @media (max-width: 1000px) {
+    .items-container {
+        gap: 1rem;
+        padding: 1rem;
+      }
+  }
+
+  @media (max-width: 800px) {
+    .items-container {
+        grid-template-columns: repeat(2, 1fr);
+      }
+  }
+
+  @media (max-width: 600px) {
+    .items-container {
+        gap: 0.5rem;
+      }
+  }
+  
+  @media (max-width: 500px) {
+    .items-container {
+        grid-template-columns: 1fr;
+      }
+  }
