@@ -35,8 +35,6 @@ function AddButton() {
   };
 
   return (
-    // button click calls a modal with form for user's inputs
-    // inputs get sent to the database as post method on submit
     <>
       <button type="button" className="add-new-btn" onClick={openModal}>
         ADD NEW ITEM
